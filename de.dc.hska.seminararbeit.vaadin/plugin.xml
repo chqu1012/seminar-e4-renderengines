@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.dc.hska.seminararbeit.vaadin"
+            application="org.semanticsoft.vaaclipse.app.application">
+         <property
+               name="appName"
+               value="de.dc.hska.seminararbeit.vaadin">
+         </property>
+         <property
+               name="applicationXMI"
+               value="de.dc.hska.seminararbeit.vaadin/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.dc.hska.seminararbeit.vaadin/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

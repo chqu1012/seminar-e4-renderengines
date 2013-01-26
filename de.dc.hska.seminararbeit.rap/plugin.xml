@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="viewapp"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="main"
+            cardinality="singleton-global"
+            visible="true">
+         <run
+               class="de.dc.hska.seminararbeit.rap.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RAP Perspective"
+            class="de.dc.hska.seminararbeit.rap.Perspective"
+            id="de.dc.hska.seminararbeit.rap.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="de.dc.hska.seminararbeit.rap.StudentView"
+            id="de.dc.hska.seminararbeit.rap.view1"
+            name="StudentView"
+            restorable="true">
+      </view>
+      <view
+            name="StudentList"
+            class="de.dc.hska.seminararbeit.rap.View"
+            id="de.dc.hska.seminararbeit.rap.view">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            servletName="view"
+            themeId="org.eclipse.rap.design.example.fancy.theme"
+            defaultEntrypointId="de.dc.hska.seminararbeit.rap.viewapp"
+            title="RAP Single View"
+            id="de.dc.hska.seminararbeit.rap.branding">
+      </branding>
+   </extension>
+
+</plugin>

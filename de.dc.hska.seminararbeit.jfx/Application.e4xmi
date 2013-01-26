@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ftsyIC3TEeKjiPUUKaN1NA" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ftsyIS3TEeKjiPUUKaN1NA" label="de.dc.hska.seminararbeit" x="0" y="0" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_isfCAC3UEeKjiPUUKaN1NA" elementId="de.dc.hska.seminararbeit.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_i6yjwC3UEeKjiPUUKaN1NA" elementId="de.dc.hska.seminararbeit.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_UOKHcC6pEeKSotIWauH13g" elementId="de.dc.hska.seminararbeit.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_jSyNAC3UEeKjiPUUKaN1NA" elementId="de.dc.hska.seminararbeit.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_j8zaYC3UEeKjiPUUKaN1NA" elementId="de.dc.hska.seminararbeit.part.0" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.TestView" label="TestPart"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_acl_oC6pEeKSotIWauH13g" elementId="de.dc.hska.seminararbeit.partstack.1">
+            <children xsi:type="basic:Part" xmi:id="_TM0kIC3WEeKjiPUUKaN1NA" elementId="de.dc.hska.seminararbeit.part.0" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.TestView" label="TestPart"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_6Gtl4C3WEeKjiPUUKaN1NA" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_62QMcC3WEeKjiPUUKaN1NA" elementId="_SeXUD-8EEd6FC9cDb6iV7g" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_62QMcS3WEeKjiPUUKaN1NA" elementId="_SeXUEO8EEd6FC9cDb6iV7g" label="_Save" iconURI="platform:/plugin/de.dc.hska.seminararbeit/icons/silk/disk.png" command="_Wm9TQC3XEeKjiPUUKaN1NA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_62QMci3WEeKjiPUUKaN1NA" elementId="_SeXUEe8EEd6FC9cDb6iV7g" label="_Delete" iconURI="platform:/plugin/de.dc.hska.seminararbeit/icons/silk/user_delete.png" command="_XATAUC3XEeKjiPUUKaN1NA"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_62QMcy3WEeKjiPUUKaN1NA" elementId="_SeXUEu8EEd6FC9cDb6iV7g" label="Direct E_xit" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.ExitHandler"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_62QMdC3WEeKjiPUUKaN1NA" elementId="_SeXUE-8EEd6FC9cDb6iV7g" label="_Exit" command="_V_6hYC3XEeKjiPUUKaN1NA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="__Q8PEC3WEeKjiPUUKaN1NA" elementId="toolbar:org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="__Q8PES3WEeKjiPUUKaN1NA" elementId="">
+        <children xsi:type="menu:DirectToolItem" xmi:id="__Q8PEi3WEeKjiPUUKaN1NA" elementId="_SeXUBO8EEd6FC9cDb6iV7g" label="" iconURI="platform:/plugin/de.dc.hska.seminararbeit/icons/save_edit.gif" tooltip="Save" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.SaveHandler"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__Q8PEy3WEeKjiPUUKaN1NA" elementId="">
+        <children xsi:type="menu:HandledToolItem" xmi:id="__Q8PFC3WEeKjiPUUKaN1NA" label="" iconURI="platform:/plugin/de.dc.hska.seminararbeit/icons/silk/user_delete.png" tooltip="_Delete" command="_XATAUC3XEeKjiPUUKaN1NA"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_dg7kYDR9EeKixZXcL5_eNA" elementId="de.dc.hska.seminararbeit.trimbar.0" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_EWjqEDs1EeKX0KK6IMIVBw" elementId="de.dc.hska.seminararbeit.toolcontrol.0" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.StatusBar"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_ReOe4C3XEeKjiPUUKaN1NA" elementId="_SeXUF-8EEd6FC9cDb6iV7g" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.ExitHandler" command="_V_6hYC3XEeKjiPUUKaN1NA"/>
+  <handlers xmi:id="_SCSOMC3XEeKjiPUUKaN1NA" elementId="_SeXUGO8EEd6FC9cDb6iV7g" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.SaveHandler" command="_Wm9TQC3XEeKjiPUUKaN1NA"/>
+  <handlers xmi:id="_Sgi3gC3XEeKjiPUUKaN1NA" elementId="_SeXUGe8EEd6FC9cDb6iV7g" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.DeleteContactHandler" command="_XATAUC3XEeKjiPUUKaN1NA"/>
+  <handlers xmi:id="_S7EQUC3XEeKjiPUUKaN1NA" elementId="_SeXUG=8EEd6FC9cDb6iV7g" contributionURI="bundleclass://de.dc.hska.seminararbeit/de.dc.hska.seminararbeit.handler.SwitchThemeHandler" command="_XfI4cC3XEeKjiPUUKaN1NA"/>
+  <commands xmi:id="_V_6hYC3XEeKjiPUUKaN1NA" elementId="contacts.exit" commandName="_Exit" description=""/>
+  <commands xmi:id="_Wm9TQC3XEeKjiPUUKaN1NA" elementId="contacts.save" commandName="_Save" description=""/>
+  <commands xmi:id="_XATAUC3XEeKjiPUUKaN1NA" elementId="contacts.delete" commandName="_Delete" description=""/>
+  <commands xmi:id="_XfI4cC3XEeKjiPUUKaN1NA" elementId="contacts.switchTheme" commandName="_Theme" description="">
+    <parameters xmi:id="_XfI4cS3XEeKjiPUUKaN1NA" elementId="contacts.commands.switchtheme.themeid" name="Theme Id" typeId="" optional="false"/>
+  </commands>
+  <addons xmi:id="_xQDHMC3WEeKjiPUUKaN1NA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ya2tcC3WEeKjiPUUKaN1NA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_y2ReIC3WEeKjiPUUKaN1NA" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_zQgjEC3WEeKjiPUUKaN1NA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_zuwlUC3WEeKjiPUUKaN1NA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_0SEtwC3WEeKjiPUUKaN1NA" elementId="com.toedter.e4.javafx.demo.contacts.addon.1" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>

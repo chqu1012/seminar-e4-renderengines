@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.dc.hska.seminararbeit"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.dc.hska.seminararbeit/css/bright.css">
+         </property>
+         <property
+               name="appName"
+               value="de.dc.hska.seminararbeit">
+         </property>
+         <property
+               name="applicationXMI"
+               value="de.dc.hska.seminararbeit/Application.e4xmi">
+         </property>
+         <property
+               name="cssTheme"
+               value="themes.bright">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+      <theme
+            basestylesheet="css/dark.css"
+            id="themes.dark"
+            name="Dark Gradient">
+      </theme>
+      <theme
+            basestylesheet="css/bright.css"
+            id="themes.bright"
+            name="Bright Gradient">
+      </theme>
+      <theme
+            basestylesheet="css/blue.css"
+            id="themes.blue"
+            name="Blue Gradient">
+      </theme>
+   </extension>
+   <extension
+         id="modelContribution"
+         point="org.eclipse.e4.workbench.model">
+      <processor
+            beforefragment="true"
+            class="de.dc.hska.seminararbeit.MenuThemeProcessor">
+         <element
+               id="menu:org.eclipse.ui.main.menu">
+         </element>
+      </processor>
+      <processor
+            beforefragment="true"
+            class="de.dc.hska.seminararbeit.ToolbarThemeProcessor">
+         <element
+               id="toolbar:org.eclipse.ui.main.toolbar">
+         </element>
+      </processor>
+   </extension>
+
+</plugin>

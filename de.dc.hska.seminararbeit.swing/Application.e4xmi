@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_agcUEDu-EeKHfdbw8BdLzA" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_agcUETu-EeKHfdbw8BdLzA" label="de.dc.hska.seminararbeit.swing" x="0" y="0" width="800" height="600">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_cktnADvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_wjgGIDu_EeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_xFEiIDu_EeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.part.0" contributionURI="bundleclass://de.dc.hska.seminararbeit.swing/de.dc.hska.seminararbeit.swing.StudentPart" label="StudentView"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_fnJdQDvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.partstack.1">
+        <children xsi:type="basic:Part" xmi:id="_ltJyMDvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.part.1" contributionURI="bundleclass://de.dc.hska.seminararbeit.swing/de.dc.hska.seminararbeit.swing.ListView" label="StudentList"/>
+      </children>
+    </children>
+    <trimBars xmi:id="_ql_wcDvAEeKHfdbw8BdLzA" elementId="toolbar:org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_ql_wcTvAEeKHfdbw8BdLzA" elementId="">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-nskMDvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.handledtoolitem.0" iconURI="platform:/plugin/de.dc.hska.seminararbeit.swing/icons/disk.png" command="_6LVtoDvAEeKHfdbw8BdLzA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DZh7gDvBEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.handledtoolitem.0" iconURI="platform:/plugin/de.dc.hska.seminararbeit.swing/icons/disk.png" command="_6LVtoDvAEeKHfdbw8BdLzA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_D2I_ADvBEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.handledtoolitem.0" iconURI="platform:/plugin/de.dc.hska.seminararbeit.swing/icons/disk.png" command="_6LVtoDvAEeKHfdbw8BdLzA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_7lglkDvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.handler.SaveHandler" contributionURI="bundleclass://de.dc.hska.seminararbeit.swing/de.dc.hska.seminararbeit.swing.handler.SaveHandler" command="_6LVtoDvAEeKHfdbw8BdLzA"/>
+  <commands xmi:id="_6LVtoDvAEeKHfdbw8BdLzA" elementId="de.dc.hska.seminararbeit.swing.command.SaveCommand" commandName="Save Command"/>
+  <addons xmi:id="_agcUEju-EeKHfdbw8BdLzA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_agcUEzu-EeKHfdbw8BdLzA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_agcUFTu-EeKHfdbw8BdLzA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_agcUFju-EeKHfdbw8BdLzA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+</application:Application>

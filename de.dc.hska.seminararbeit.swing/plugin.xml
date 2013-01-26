@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.dc.hska.seminararbeit.swing"
+            application="com.toedter.e4.ui.workbench.swing.application">
+         <property
+               name="RICH_SAMPLE"
+               value="FALSE">
+         </property>
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.dc.hska.seminararbeit.swing/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="de.dc.hska.seminararbeit.swing">
+         </property>
+         <property
+               name="applicationXMI"
+               value="de.dc.hska.seminararbeit.swing/Application.e4xmi">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

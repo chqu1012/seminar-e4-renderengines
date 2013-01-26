@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rap
+Bundle-SymbolicName: de.dc.hska.seminararbeit.rap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.dc.hska.seminararbeit.rap.Activator
+Require-Bundle: org.eclipse.rap.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.servlet;version="2.4.0",
+ javax.servlet.http;version="2.4.0"

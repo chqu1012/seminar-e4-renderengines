@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_2cRRMElxEeKqD-X6lK3arA" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_2cR4S0lxEeKqD-X6lK3arA" label="de.dc.hska.seminararbeit.vaadin" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_Pk6MwEl2EeKE-pSjodnnKQ" elementId="de.dc.hska.seminararbeit.vaadin.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_QAcSMEl2EeKE-pSjodnnKQ" elementId="de.dc.hska.seminararbeit.vaadin.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_K7huMElzEeKqD-X6lK3arA" elementId="de.dc.hska.seminararbeit.vaadin.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_L5OskElzEeKqD-X6lK3arA" elementId="de.dc.hska.seminararbeit.vaadin.partstack.0" containerData="30">
+            <children xsi:type="basic:Part" xmi:id="_LkPUAElzEeKqD-X6lK3arA" elementId="de.dc.hska.seminararbeit.vaadin.part.0"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_MVS9gElzEeKqD-X6lK3arA" elementId="de.dc.hska.seminararbeit.vaadin.partstack.0" containerData="70">
+            <children xsi:type="basic:Part" xmi:id="_Ms9PkElzEeKqD-X6lK3arA" elementId="de.dc.hska.seminararbeit.vaadin.part.0"/>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_KosWhDjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_KosWhTjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_KosWhjjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_KosWhzjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_KosWiDjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_KosWiTjEEeKcQPOnIbNSoQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
